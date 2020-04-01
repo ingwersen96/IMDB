@@ -1,0 +1,1 @@
+A singing competition guessing game based on Korean format King of Mask Singer. 12 celebrity performers wear costumes to conceal identities. One singer is eliminated each week and unmasked. Small hints are given for the viewer guess along.
