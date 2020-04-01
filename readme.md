@@ -1,14 +1,14 @@
 # IMDB Webscrapping
 
 ## Pastas e Subpastas
-
+"""
 IMDB/
 ├── IMDB.ipynb
 ├── readme.md
 ├── requirements.txt
 └── src/
     └── data/
-
+"""
 ### Legenda
 
 1. <code>IMDB.ipynb:</code> notebook contendo o código gerador dos arquivos .txt
