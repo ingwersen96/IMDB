@@ -2,7 +2,7 @@
 
 ## Pastas e Subpastas
 
-
+'''
 IMDB/
 ├── .DS_Store
 ├── IMDB.ipynb
@@ -11,7 +11,7 @@ IMDB/
 └── src/
     ├── .DS_Store
     └── data/
-  
+'''  
 ### Legenda
 
 1. <code>IMDB.ipynb:</code> notebook contendo o código gerador dos arquivos .txt
