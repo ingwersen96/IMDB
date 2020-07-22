@@ -87,4 +87,5 @@ def run(numberOfMovies):
                 with open("IMDB/{}.txt".format(new_title), 'w') as f:
                     print(descr, file=f)
         except:
+            print("Error found")
         
