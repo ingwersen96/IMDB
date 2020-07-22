@@ -74,19 +74,19 @@ def treat_name(title):
 def run(numberOfMovies):
     for num in range(1,numberOfMovies,100):
 	    try:
-            url = imdb_url(num)
-            id1 = IMDB(url)
-            movieData = id1.movieData()
+			url = imdb_url(num)
+			id1 = IMDB(url)
+			movieData = id1.movieData()
             print(num)
 
             for i in range(100):
-                title = movieData[0][i]
+				title = movieData[0][i]
                 new_title = treat_name(title)
                 descr = movieData[1][i]
                 with open("IMDB/{}.txt".format(new_title), 'w') as f:
                     print(descr, file=f)
         except:
-		    print("Error found")
+			print("Error found")
         
 def test_run():
 	run(1000)
