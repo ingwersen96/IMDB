@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 from requests import get
+import math
 
 url1 = "https://www.imdb.com/search/title?count=100&title_type=feature,tv_series&ref_=nv_wl_img_2" # for testing
 
